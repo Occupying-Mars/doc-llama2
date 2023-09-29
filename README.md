@@ -85,3 +85,5 @@ def ask_alpaca(prompt: str, model: PeftModel = model) -> str:
     print(format_response(response))
 ask_alpaca("What is (are) Glaucoma ?")
 ```
+
+https://www.mlexpert.io/machine-learning/tutorials/alpaca-and-llama-inference
