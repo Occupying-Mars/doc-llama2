@@ -89,4 +89,3 @@ ask_alpaca("What is (are) Glaucoma ?")
 autotrain llm --train --project_name my-llm --model meta-llama/Llama-2-7b-hf --data_path "data" --train_split "train" --text_column "text" --use_peft --use_int4 --learning_rate 2e-4 --train_batch_size 10 --num_train_epochs 3 --trainer sft
  --use_flash_attention_2
 ```
-https://www.mlexpert.io/machine-learning/tutorials/alpaca-and-llama-inference
